@@ -1,0 +1,71 @@
+ZTII/
+│
+├── backend/
+│   ├── main.py                 # FastAPI entry point
+│   ├── config.py               # Configuration
+│   ├── database.py             # SQLite connection
+│   ├── models.py               # SQLAlchemy models
+│   ├── schemas.py              # Pydantic models
+│   ├── ai.py                   # AI Rule Engine
+│   ├── security.py             # API authentication (future-ready)
+│   │
+│   ├── routes/
+│   │   ├── devices.py
+│   │   ├── sensors.py
+│   │   ├── alerts.py
+│   │   └── health.py
+│   │
+│   └── services/
+│       ├── onboarding.py
+│       ├── registry.py
+│       ├── analytics.py
+│       ├── alert_service.py
+│       └── health_service.py
+│
+├── dashboard/
+│   ├── app.py
+│   │
+│   ├── pages/
+│   │   ├── dashboard.py
+│   │   ├── devices.py
+│   │   ├── alerts.py
+│   │   ├── history.py
+│   │   └── settings.py
+│   │
+│   └── components/
+│       ├── charts.py
+│       ├── cards.py
+│       ├── tables.py
+│       └── sidebar.py
+│
+├── simulators/
+│   ├── simulator.py
+│   ├── sensor_generator.py
+│   └── virtual_devices.py
+│
+├── database/
+│   └── ztii.db
+│
+├── reports/
+│   ├── generated/
+│   └── templates/
+│
+├── tests/
+│   ├── test_api.py
+│   ├── test_ai.py
+│   └── test_database.py
+│
+├── docs/
+│   ├── architecture.md
+│   ├── api.md
+│   ├── methodology.md
+│   └── deployment.md
+│
+├── assets/
+│   ├── logo/
+│   ├── screenshots/
+│   └── diagrams/
+│
+├── requirements.txt
+├── README.md
+└── LICENSE
