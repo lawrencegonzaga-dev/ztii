@@ -1,0 +1,13 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.history
+.continue
+.env*
+.streamlit/secrets.toml
+database/*.db*
+reports/generated
